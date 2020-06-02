@@ -18,6 +18,8 @@ class ProductPageLocators():
     PRODUCT_NAME_H1_TAG = (By.CSS_SELECTOR, "#content_inner .product_main h1")
     PRODUCT_PRICE_P_TAG = (By.CSS_SELECTOR, "#content_inner div.product_main .price_color")
 
+    SUCCESS_MESSAGE = (By.XPATH, "//div[@id='messages']/div[1]")
+
     ALERT_PRODUCT_NAME_STRONG_TAG = (By.XPATH, "//div[@id='messages']/div[1]/div/strong")
     ALERT_PRODUCT_PRICE_STRONG_TAG = (By.XPATH, "//div[@id='messages']/div[3]/div/p/strong")
     
