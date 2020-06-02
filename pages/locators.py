@@ -11,3 +11,13 @@ class LoginPageLocators():
     REGISTER_EMAIL_FIELD = (By.CSS_SELECTOR, "#id_registration-email")
     REGISTER_PASSWORD_FIELD = (By.CSS_SELECTOR, "#id_registration-password1")
     REGISTER_CONFIRM_PASSWORD_FIELD = (By.CSS_SELECTOR, "#id_registration-password2")
+
+class ProductPageLocators():
+    ADD_TO_BASKET_BUTTON = (By.CSS_SELECTOR, "button.btn-add-to-basket")
+
+    PRODUCT_NAME_H1_TAG = (By.CSS_SELECTOR, "#content_inner .product_main h1")
+    PRODUCT_PRICE_P_TAG = (By.CSS_SELECTOR, "#content_inner div.product_main .price_color")
+
+    ALERT_PRODUCT_NAME_STRONG_TAG = (By.XPATH, "//div[@id='messages']/div[1]/div/strong")
+    ALERT_PRODUCT_PRICE_STRONG_TAG = (By.XPATH, "//div[@id='messages']/div[3]/div/p/strong")
+    
